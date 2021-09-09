@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Marissa Kalkar S2</title>
+  </head>
+
+  <!-- Add a new HTML element to your document with a specific ID (e.g. div ).
+  Create a new function or duplicate debugAmusementRides() that loops through
+  all amusement rides and displays the name and the new prices on the website. -->
+  <script src="myscript.js"></script>
+  <body id="body">
+
+    <div id="content-1"></div>
+
+    <script >
+
+      var div = document.createElement("div");
+      div.setAttribute("id", "container");
+      var body = document.getElementById('body');
+      body.appendChild(div);
+      //doublePrices();
+      debugAmusementRides();
+
+      for(var i = 0; i < attractions.length; ++i) {
+        var text = document.createElement("h2");
+        text.innerHTML = "Name: " + attractions[i].name + ", Price: $" + attractions[i].price;
+        var container = document.getElementById("container");
+        container.appendChild(text);
+      }
+
+  </script>
+
+  </body>
+</html>
