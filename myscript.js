@@ -31,12 +31,12 @@ var attractions = [
 ];
 
 
-// console.log(attractions[0].name);
-// for(var i=0; i<attractions[1].opening_days.length; ++i){
-//   console.log(attractions[1].opening_days[i]);
-// }
-// console.log(attractions[1].opening_days[0]);
-// console.log(attractions[2].price / 2);
+console.log(attractions[0].name);
+for(var i=0; i<attractions[1].opening_days.length; ++i){
+  console.log(attractions[1].opening_days[i]);
+}
+console.log(attractions[1].opening_days[0]);
+console.log(attractions[2].price / 2);
 // Calling the function
 var amusementRidesDouble = doublePrices(attractions);
 //debugAmusementRides();

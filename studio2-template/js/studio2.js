@@ -3,7 +3,7 @@
 
 
 
-
+dataFiltering();
 
 function dataFiltering() {
 	var attractions = attractionData;
